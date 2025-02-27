@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crispy Kitchen</title>
+    <link rel="shortcut icon" href="crispy_logo.svg" type="svg" />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="css/reuseable componant.css" />
+    <link rel="stylesheet" href="css/Home_style.css" />
+  </head>
+  <body>
+    <!--nav bar  -->
+    <nav>
+      <div class="container">
+        <div class="nav_content">
+          <div class="logo">Crispy Kitchen</div>
+          <ul class="main_ul">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Story.html">Story</a></li>
+            <li><a href="Menu.html">Menu</a></li>
+            <li><a href="New_Events.html">Events</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+          <span class="btn1 reservation"> reservation </span>
+          <div class="nav_icon">
+            <i class="fa-solid fa-bars active"></i>
+            <i class="fa-solid fa-x close"></i>
+          </div>
+          <ul class="mobile_ul">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Story.html">Story</a></li>
+            <li><a href="Menu.html">Menu</a></li>
+            <li><a href="New_Events.html">Events</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav bar  -->
+
+    <!-- first view -->
+    <div class="contact first_vew">
+      <div class="container">
+        <div class="img_titel">
+          <h1>say hi!</h1>
+          <p>we are happy to get in touchg with you</p>
+        </div>
+      </div>
+    </div>
+    <!-- end first view -->
+
+    <!-- start contact -->
+    <section class="contact">
+      <div class="container">
+        <div class="contact_form">
+          <form action="">
+            <label for="fname"
+              >full name
+              <input
+                type="text"
+                placeholder="your name "
+                name="fname"
+                id="fname"
+              />
+            </label>
+
+            <label for="fname"
+              >phone
+              <input
+                type="tel"
+                placeholder="your phone "
+                name="lname"
+                id="lname"
+              />
+            </label>
+
+            <label for="fname"
+              >email
+              <input type="email" placeholder="email" name="email" />
+            </label>
+            <label for="fname"
+              >message
+              <textarea> your message...</textarea>
+            </label>
+
+            <input type="submit" value="submiting" />
+          </form>
+          <div class="opening_days">
+            <div class="one">
+              <h1>weekdays</h1>
+              <p>
+                <span class="days">sat:thr</span
+                ><span class="time">8Am : 12pm</span>
+              </p>
+            </div>
+            <div class="two">
+              <h1>weekends</h1>
+              <p>
+                <span class="days">friday</span
+                ><span class="time">11Am : 10pm</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="map">
+          <h1>Sebaei, Mit NEMA, Shubra El Kheima 1, Al-Qalyubia Governorate</h1>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1725.1927335137264!2d31.23405642214876!3d30.14039359726103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14586aeb7857a699%3A0x52cfa9953b49dda1!2sSebaei%2C%20Mit%20NEMA%2C%20Shubra%20El%20Kheima%201%2C%20Al-Qalyubia%20Governorate%206310250!5e0!3m2!1sen!2seg!4v1737008363448!5m2!1sen!2seg"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- end contact -->
+
+    <!-- start footer -->
+    <footer>
+      <div class="container">
+        <header>
+          <h1 class="header">Crispy Kitchen</h1>
+        </header>
+        <div class="footer_content">
+          <div class="location">
+            <h2>location</h2>
+            <p>22 maher Ibrahem streer</p>
+            <span class="direction btn1">direction</span>
+          </div>
+          <div class="opening_hour">
+            <h2>Opining houres</h2>
+            <ul class="time">
+              <li>normal: all days 7AM : 12Am</li>
+              <li>friday: 1bm : 12Am</li>
+              <li>random data as usual</li>
+            </ul>
+          </div>
+          <div class="social">
+            <h2>social</h2>
+            <ul class="social_icons">
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              </li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui</p>
+          </div>
+        </div>
+      </div>
+      <div class="overlayout"></div>
+    </footer>
+    <!-- end footer -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
